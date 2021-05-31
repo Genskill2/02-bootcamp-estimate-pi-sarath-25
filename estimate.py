@@ -10,7 +10,7 @@ def wallis(n):
     prod = prod*((4*s*s)/((4*s*s)-1))
     s = s+1
     c = c+1
-  return prod
+  return 2*prod
 
 def monte_carlo(n):
   ct = 1
