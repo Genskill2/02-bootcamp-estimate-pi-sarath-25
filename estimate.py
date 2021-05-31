@@ -6,7 +6,7 @@ def wallis(n):
   cnt = 1
   prod = 1
   s = 1
-  While cnt is not n+1:
+  While cnt<(n+1):
     prod = prod*(4*s*s/(4*s*s-1))
     s += 1
     cnt += 1
@@ -16,7 +16,7 @@ def monte_carlo(n):
   ct = 1
   pts_in_circle = 0
   pts_in_square = 0
-  while ct is not n+1:
+  while ct<(n+1):
     x = random.random()
     y = random.random()
     if sqrt(x**2 + y**2) < 1:
