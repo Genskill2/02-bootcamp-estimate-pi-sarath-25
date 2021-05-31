@@ -21,7 +21,7 @@ def monte_carlo(n):
     y = random.random()
     if sqrt(x**2 + y**2) < 1:
       pts_in_circle += 1
-    else
+    else:
       pts_in_square += 1
     ct += 1
   return 4*(pts_in_circle/pts_in_square)
