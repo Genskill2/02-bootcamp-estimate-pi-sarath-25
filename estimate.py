@@ -6,7 +6,7 @@ def wallis(n):
   c = 1
   prod = 1
   s = 1
-  While c < (n+1):
+  while c < (n+1):
     prod = prod*(4*s**2/(4*s**2-1))
     s = s+1
     c = c+1
